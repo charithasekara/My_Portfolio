@@ -5,16 +5,16 @@ import './Skills.css';
 
 const Skills = () => {
   const cardsData = [
-    { id: 1, imageUrl: '/My_Portfolio/public/react.png' },
-    { id: 2, imageUrl: 'vue.png' },
-    { id: 3, imageUrl: 'flutter.png' },
-    { id: 4, imageUrl: 'html.png' },
-    { id: 5, imageUrl: 'css-3.png' },
-    { id: 6, imageUrl: 'bootstrap.png' },
-    { id: 7, imageUrl: 'ai.png' },
-    { id: 8, imageUrl: 'ps.png' },
-    { id: 9, imageUrl: 'xd.png' },
-    { id: 10, imageUrl: 'figma.png' },
+    { id: 1, imageUrl: '../../public/react.png' },
+    { id: 2, imageUrl: '../../public/vue.png' },
+    { id: 3, imageUrl: '../../public/flutter.png' },
+    { id: 4, imageUrl: '../../public/html.png' },
+    { id: 5, imageUrl: '../../public/css-3.png' },
+    { id: 6, imageUrl: '../../public/bootstrap.png' },
+    { id: 7, imageUrl: '../../public/ai.png' },
+    { id: 8, imageUrl: '../../public/ps.png' },
+    { id: 9, imageUrl: '../../public/xd.png' },
+    { id: 10, imageUrl: '../../public/figma.png' },
   ];
 
   return (
