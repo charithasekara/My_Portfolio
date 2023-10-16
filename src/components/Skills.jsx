@@ -5,7 +5,7 @@ import './Skills.css';
 
 const Skills = () => {
   const cardsData = [
-    { id: 1, imageUrl: 'react.png' },
+    { id: 1, imageUrl: '/My_Portfolio/public/react.png' },
     { id: 2, imageUrl: 'vue.png' },
     { id: 3, imageUrl: 'flutter.png' },
     { id: 4, imageUrl: 'html.png' },
