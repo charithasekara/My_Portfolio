@@ -1,6 +1,6 @@
 import React from 'react';
 import './Skills.css';
-import ReactImg from '../../public/react.png';
+import ReactImg from '../assets/react.png';
 import VueImg from '../../public/vue.png';
 import FlutterImg from '../../public/flutter.png';
 import HtmlImg from '../../public/html.png';
