@@ -1,5 +1,15 @@
 import React from 'react';
 import './Skills.css';
+import ReactImg from "../../public/react.png";
+import VueImg from "../../public/vue.png";
+import FlutterImg from "../../public/flutter.png";
+import HtmlImg from "../../public/html.png";
+import CssImg from "../../public/css-3.png";
+import BootImg from "../../public/bootstrap.png";
+import AiImg from "../../public/ai.png";
+import PsImg from "../../public/ps.png";
+import XdImg from "../../public/xd.png";
+import FigmaImg from "../../public/figma.png";
 
 
 
