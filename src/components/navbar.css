@@ -7,7 +7,7 @@
     width: 100%;
     padding: 3rem 2rem;
     transition: all 0.5s cubic-bezier(0.77, 0.2, 0.5, 1);
-   
+    z-index: 100000;
 }
 
 .show-menu{
@@ -19,6 +19,7 @@
     column-gap: 24px;
     border-bottom: 1px solid var(--border-color);
     padding-block: 14px;
+    z-index: 100000;
 }
 
 .nav__icon,
@@ -73,12 +74,12 @@
 @media screen and ( min-width: 1024px ) {
     .nav__menu {
         all: unset;
-        z-index: 5000;
+        z-index: 100000;
     }
 
     .nav__toggle {
         display:none ;
-        z-index: 2000;
+        z-index: 100000;
     }
 
     .nav {
@@ -87,12 +88,12 @@
         right: 30px;
         display: flex;
         align-items: center;
-        z-index: 1000;
+        z-index: 100000;
     }
 
     .nav__item {
         margin-block: 20px;
-        z-index: 1000;
+        z-index: 100000;
     }
 
     .nav__link{
@@ -108,6 +109,7 @@
     .nav__icon{
         font-size: 20px;
         margin-inline: auto;
+        z-index: 1000000;
     }
     .nav__name {
         position: absolute;
@@ -121,7 +123,7 @@
         color: var(--text-white);
         opacity: 0;
         visibility: hidden;
-        z-index: -1;
+        z-index: 100000;
         transition: all 0.3s ease;
     }
 
