@@ -37,6 +37,19 @@
     color: var(--first-color);
     font-weight: var(--weight-700);
 }
+
+.home__title_second{
+  position: relative;
+  font-size: var(--h5-font-size);
+  line-height: 1.60;
+  padding-left: 0px;
+  font-weight: var(--weight-700);
+
+}
+.home__title_second span{
+  color: var(--first-color);
+  font-weight: var(--weight-700);
+}
 /* .home__title::before{
     content: '';
     position: absolute;
