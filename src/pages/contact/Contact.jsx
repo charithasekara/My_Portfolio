@@ -6,7 +6,7 @@ import{PiFigmaLogoThin} from 'react-icons/pi';
 import {FaGithub} from 'react-icons/fa';
 import {TbBrandFiverr} from 'react-icons/tb';
 
-import{FiSend} from 'react-icons/fi';
+
 import'./contact.css';
 import { ContactUs } from '../../components/ContactUs';
 
